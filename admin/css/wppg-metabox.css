@@ -1,0 +1,36 @@
+.wppg-container-metabox {
+
+}
+
+.wppg-container-metabox label{
+    font-weight: bold;
+    font-size: 1rem;
+    display: block;
+}
+
+#wppg-content-metabox{
+    visibility: hidden;
+    height: auto;
+    padding: 16px 0;
+}
+
+.wppg-thumbnail{
+    border-radius: 5px;
+    border: solid 2px white;
+    box-shadow: 0 0 3px #CCC
+}
+.wppg-button-remove {
+    border: none;
+    color: white !important;
+    background-color: #e53935;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    cursor: pointer;
+    border-radius: 2px;
+}
+.wppg-button-remove:hover {
+    transition: 1s;
+    background-color: darkred;
+}
+
